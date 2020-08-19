@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-export const Profile=(props)=>{
-      const {children,handleName,fullName='jihen', bio='i am an engineer' , profession='student'}=props ;
+export const Profile=( {children,handleName,fullName='jihen', bio='i am an engineer' , profession='student'})=>{
+     
       
       
     return(
