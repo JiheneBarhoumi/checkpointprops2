@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App button:hover{
+  transform:scale(1.1);
+  transition:0.4s ease-in-out;
+  background-color: rgb(6, 194, 194);
+}
+
+.App button{
+  transition:0.4s ease-in-out;
+  cursor: pointer;
+  background-color: cyan;
+}
